@@ -1,0 +1,75 @@
+/* All common css start */
+* {
+    margin: 0;
+    padding: 0;
+}
+ul,ol {
+    list-style-type: none;
+}
+a {
+    text-decoration: none;
+    display: inline-block;
+}
+/* All common css end */
+
+.navbar {
+    background: #07110D;
+    padding: 20px 0;
+}
+.nav-link {
+ color: #9DB3A8;
+font-family: Inter;
+font-size: 15px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+margin: 0 20px;
+}
+.nav-link:hover {
+    color: white;
+}
+.btn {
+padding: 12px 22px;
+border-radius: 999px;
+background: #1FB57F;
+color: #07110D;
+font-family: Inter;
+font-size: 14px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+#banner {
+    padding-top: 60px;
+    padding-bottom: 100px;
+    background: #07110D;
+}
+.image {
+   position: relative; 
+}
+.card {
+padding: 18px 22px;
+border-radius: 18px;
+background: #07110D;
+position: absolute;
+left: 28px;
+bottom: 10px;
+}
+
+.card h3{
+    color: var(--color-cream, #F4EFE6);
+font-family: "Bebas Neue";
+font-size: 28px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 0.56px;
+}
+.card h4 {
+    color: var(--color-muted, #9DB3A8);
+font-family: Inter;
+font-size: 13px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
